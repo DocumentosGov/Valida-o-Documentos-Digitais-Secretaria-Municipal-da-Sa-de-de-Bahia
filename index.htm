@@ -1,126 +1,112 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head id="j_idt2"><link type="text/css" rel="stylesheet" href="/saudeJaCwb-web/javax.faces.resource/theme.css.xhtml;jsessionid=q5MLqZM0ak18jXWpln85nWcdG9bw-zs27Hc16sgu.vmprdapp-saudeja-02?ln=primefaces-saga&amp;v=10.0.0"><link type="text/css" rel="stylesheet" href="/saudeJaCwb-web/javax.faces.resource/primeicons/primeicons.css.xhtml;jsessionid=q5MLqZM0ak18jXWpln85nWcdG9bw-zs27Hc16sgu.vmprdapp-saudeja-02?ln=primefaces&amp;v=10.0.0"><link type="text/css" rel="stylesheet" href="/saudeJaCwb-web/javax.faces.resource/saudeja.css.xhtml;jsessionid=q5MLqZM0ak18jXWpln85nWcdG9bw-zs27Hc16sgu.vmprdapp-saudeja-02?ln=css"><script type="text/javascript" src="/saudeJaCwb-web/javax.faces.resource/jquery/jquery.js.xhtml;jsessionid=q5MLqZM0ak18jXWpln85nWcdG9bw-zs27Hc16sgu.vmprdapp-saudeja-02?ln=primefaces&amp;v=10.0.0"></script><script type="text/javascript" src="/saudeJaCwb-web/javax.faces.resource/jquery/jquery-plugins.js.xhtml;jsessionid=q5MLqZM0ak18jXWpln85nWcdG9bw-zs27Hc16sgu.vmprdapp-saudeja-02?ln=primefaces&amp;v=10.0.0"></script><script type="text/javascript" src="/saudeJaCwb-web/javax.faces.resource/core.js.xhtml;jsessionid=q5MLqZM0ak18jXWpln85nWcdG9bw-zs27Hc16sgu.vmprdapp-saudeja-02?ln=primefaces&amp;v=10.0.0"></script><link type="text/css" rel="stylesheet" href="/saudeJaCwb-web/javax.faces.resource/components.css.xhtml;jsessionid=q5MLqZM0ak18jXWpln85nWcdG9bw-zs27Hc16sgu.vmprdapp-saudeja-02?ln=primefaces&amp;v=10.0.0"><script type="text/javascript" src="/saudeJaCwb-web/javax.faces.resource/components.js.xhtml;jsessionid=q5MLqZM0ak18jXWpln85nWcdG9bw-zs27Hc16sgu.vmprdapp-saudeja-02?ln=primefaces&amp;v=10.0.0"></script><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='pt_BR';PrimeFaces.settings.viewId='/pages/validaDocs/result.xhtml';PrimeFaces.settings.contextPath='/saudeJaCwb-web';PrimeFaces.settings.cookiesSecure=false;}</script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-    <title>Validação Documentos Digitais</title>
-    
-	<link rel="stylesheet" href="//cdn.ici.curitiba.org.br/scripts/bootstrap/5.1.3/css/bootstrap.min.css">
-	<link rel="stylesheet" href="//cdn.ici.curitiba.org.br/scripts/jquery/plugins/mvc-grid/6.0.1/css/mvc-grid.css">
-
-	<link rel="stylesheet" href="css/bootstrap-icons-1.8.1.css">
-    <link rel="stylesheet" href="css/estilo.min.css"></head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação Documentos Digitais
+Secretaria Municipal da Saúde de Bahia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
 <body>
-
-    <header class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <h1>Validação Documentos Digitais</h1>
-                <p>Secretaria Municipal da Saúde de Bahia</p>
-            </div>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="header-title">Validação Documentos Digitais</h1>
+            <p class="header-subtitle">Secretaria Municipal da Saúde de Bahia</p>
         </div>
     </header>
-	
-    <main>
-<form id="form" name="form" method="post" action="/saudeJaCwb-web/pages/validaDocs/result.xhtml;jsessionid=q5MLqZM0ak18jXWpln85nWcdG9bw-zs27Hc16sgu.vmprdapp-saudeja-02" enctype="application/x-www-form-urlencoded">
-<input type="hidden" name="form" value="form">
-<script id="form:rcEmitirDocumento" type="text/javascript">rcEmitirDocumento = function() {return PrimeFaces.ab({s:"form:rcEmitirDocumento",f:"form",u:"form",onco:function(xhr,status,args,data){abrirLinkDownload();},pa:arguments[0]});}</script>
-			
-			<script>
-		    	function abrirLinkDownload() {
-					linkDownload = '';
 
-					if (linkDownload != '')
-	        			window.open(linkDownload);
-		       	}
-		    </script>
-			
-			<input type="hidden" id="cdDocumentoDigital">
-			<input type="hidden" id="idDocumento">
-			
-			<div class="container">
-				<div class="row"><div id="form:j_idt9" class="ui-outputpanel ui-widget col-12 col-md-6">
-						<h2 class="mb-2">Usuário</h2>
-						<div class="box-info">
-							<p><b>Nome: </b>JAVAM *********** JÚNIOR</p>
-							<p><b>Nascimento: </b>**/**/1988 </p>
-							<p><b>Mãe: </b>CLÁUDIA *********** SOARES</p><div id="form:j_idt17" class="ui-outputpanel ui-widget">
-								<p><b>CPF: </b>03*.***.***-43</p></div>
-						</div></div><div id="form:j_idt22" class="ui-outputpanel ui-widget col-12 col-md-6">
-						<h2 class="mb-2">Documento</h2>
-						
-						<div class="box-info">
-							<p>
-								<b>Atestado Médico</b>
-							</p>
-							<p>
-								<b>Gerado em: </b>13/12/2025 07:30
-							</p>
-							<p class="row">
-							</p>
-						</div></div><div id="form:j_idt33" class="ui-outputpanel ui-widget row">
-						<div class="col-12 my-5">
-							<h2>Detalhes</h2>
-							<div class="table-responsive" id="gridDetalhes">
-								<div id="divGridDetalhes" class="mvc-grid" data-name="" data-filter-mode="Excel" data-url="">
-									<table class="table table-bordered table-striped">
-										<tbody>
-											<tr>
-												<td>Qtde. dias do atestado: 15</td>
-											</tr>
-											<tr>
-												<td>Profissional: ROSANGELA MURÇA ANDRADE COSTA - CRM 6077</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-							</div>
-						</div></div>
-					
-					<div class="col-12"><button id="form:btnVoltar" name="form:btnVoltar" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only botao-saudeja" onclick="PrimeFaces.ab({s:&quot;form:btnVoltar&quot;,f:&quot;form&quot;});return false;" style="width: 80px" type="submit" role="button" aria-disabled="false"><span class="ui-button-text ui-c">Voltar</span></button>
-					</div>
-				</div>
-			</div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="-2087933657634862419:6215103661785621334" autocomplete="off">
-</form>
-    </main>
-    
-    <footer>
+    <!-- Main Content -->
+    <main class="main-content">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-8 links">
-                    <div>
-                        <h3>Acesso rápido</h3>
-                        <a href="https://www.cremeb.org.br/" target="_blank">cremeb.org.br</a><br>
-                        <a href="https://www.saude.ba.gov.br" target="_blank">saude.ba.gov.br</a><br>
-                        <a href="https://coronavirus.curitiba.pr.gov.br" target="_blank">coronavirus.pr.gov.br</a>
+            <!-- User and Document Section -->
+            <div class="info-grid">
+                <!-- User Section -->
+                <section class="card">
+                    <h2 class="section-title">Usuário</h2>
+                    <div class="card-content">
+                        <div class="info-row">
+                            <span class="label">Nome:</span>
+                            <span class="value">JAVAM *********** JÚNIOR</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Nascimento:</span>
+                            <span class="value">**/**/1988</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Mãe:</span>
+                            <span class="value">CLÁUDIA *********** SOARES</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">CPF:</span>
+                            <span class="value">03*.***.***-43</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Document Section -->
+                <section class="card">
+                    <h2 class="section-title">Documento</h2>
+                    <div class="card-content">
+                        <div class="document-type">
+                            <span class="doc-name">Atestado Médico</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Gerado em:</span>
+                            <span class="value">13/12/2025 07:30</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Details Section -->
+            <section class="details-section">
+                <h2 class="section-title">Detalhes</h2>
+                <div class="details-card">
+                    <div class="detail-item">
+                        <span class="detail-label">Qtde. dias do atestado:</span>
+                        <span class="detail-value">15</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Profissional:</span>
+                        <span class="detail-value">ROSANGELA MURÇA ANDRADE COSTA – CRM 6077</span>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4 logomarca mt-md-4 mt-lg-0">
-                    <div class="logos">
-                        <img src="https://saude.salvador.ba.gov.br/wp-content/uploads/2023/05/logo-sms-rodape2.png">
-                    </div>
+            </section>
+
+            <!-- Back Button -->
+            <div class="button-container">
+                <button class="btn-back" onclick="window.location.href='https://saude.salvador.ba.gov.br/'">
+        Voltar
+      </button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <h3 class="footer-title">Acesso rápido</h3>
+                    <ul class="links-list">
+                        <li><a href="https://www.cremeb.org.br/" target="_blank" rel="noopener noreferrer">cremeb.org.br</a></li>
+                        <li><a href="https://www.saude.ba.gov.br" target="_blank" rel="noopener noreferrer">saude.ba.gov.br</a></li>
+                        <li><a href="https://coronavirus.curitiba.pr.gov.br" target="_blank" rel="noopener noreferrer">coronavirus.pr.gov.br</a></li>
+                    </ul>
+                </div>
+                <div class="footer-logo">
+                    <img src="pmc-logo.svg" alt="Prefeitura Municipal de Curitiba" class="logo-img">
+                    <span class="logo-text">CURITIBA</span>
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 px-0">
-                    <div class="desenvolvimento">
-                        <p>
-                            Desenvolvido por ICI -
-                            <a href="https://www.ici.curitiba.org.br/" target="_blank"> Instituto das Cidades Inteligentes</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <div class="footer-bottom">
+            <p class="developer-info">Desenvolvido por ICI - Instituto das Cidades Inteligentes</p>
         </div>
     </footer>
-
-    <script src="//cdn.ici.curitiba.org.br/scripts/jquery/jquery-3.5.1.min.js"></script>
-	<script src="//cdn.ici.curitiba.org.br/scripts/bootstrap/5.1.3/js/bootstrap.min.js"></script>
-	
-	<script src="js/Mensagem.js"></script>
-    <script src="js/Inicial.js"></script>
-<div id="textarea_simulator" style="position: absolute; top: 0px; left: 0px; visibility: hidden;"></div></body></html>
+</body>
+</html>
