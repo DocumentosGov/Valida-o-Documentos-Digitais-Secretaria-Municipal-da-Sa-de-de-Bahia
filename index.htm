@@ -1,110 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação Documentos Digitais - Secretaria Municipal da Saúde de Curitiba</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
 <body>
-
-<header class="header">
-  <div class="container">
-    <h1 class="header-title">Validação Documentos Digitais</h1>
-    <p class="header-subtitle">Secretaria Municipal da Saúde da Bahia</p>
-  </div>
-</header>
-
-<main class="main-content">
-  <div class="container">
-
-    <div class="info-grid">
-
-      <!-- Usuário -->
-      <div>
-        <h2 class="section-title">Usuário</h2>
-        <div class="card">
-          <div class="card-content">
-            <div class="info-row">
-              <span class="label">Nome</span>
-              <span class="value">JAVAM *********** JÚNIOR</span>
-            </div>
-            <div class="info-row">
-              <span class="label">Nascimento</span>
-              <span class="value">**/**/1988</span>
-            </div>
-            <div class="info-row">
-              <span class="label">Mãe</span>
-              <span class="value">CLÁUDIA *********** SOARES</span>
-            </div>
-            <div class="info-row">
-              <span class="label">CPF</span>
-              <span class="value">03*.***.***-43</span>
-            </div>
-          </div>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="header-title">Validação Documentos Digitais</h1>
+            <p class="header-subtitle">Secretaria Municipal da Saúde de Curitiba</p>
         </div>
-      </div>
+    </header>
 
-      <!-- Documento -->
-      <div>
-        <h2 class="section-title">Documento</h2>
-        <div class="card">
-          <div class="card-content">
-            <div class="document-type">
-              <span class="doc-name">Atestado Médico</span>
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- User and Document Section -->
+            <div class="info-grid">
+                <!-- User Section -->
+                <section class="card">
+                    <h2 class="section-title">Usuário</h2>
+                    <div class="card-content">
+                        <div class="info-row">
+                            <span class="label">Nome:</span>
+                            <span class="value">JAVAM *********** JÚNIOR</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Nascimento:</span>
+                            <span class="value">**/**/1988</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Mãe:</span>
+                            <span class="value">CLÁUDIA *********** SOARES</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">CPF:</span>
+                            <span class="value">03*.***.***-43</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Document Section -->
+                <section class="card">
+                    <h2 class="section-title">Documento</h2>
+                    <div class="card-content">
+                        <div class="document-type">
+                            <span class="doc-name">Atestado Médico</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Gerado em:</span>
+                            <span class="value">13/12/2025 07:30</span>
+                        </div>
+                    </div>
+                </section>
             </div>
-            <div class="info-row">
-              <span class="label">Gerado em</span>
-              <span class="value">13/12/2025 07:30</span>
-            </div>
-          </div>
-        </div>
-      </div>
 
-    </div>
+            <!-- Details Section -->
+            <section class="details-section">
+                <h2 class="section-title">Detalhes</h2>
+                <div class="details-card">
+                    <div class="detail-item">
+                        <span class="detail-label">Qtde. dias do atestado:</span>
+                        <span class="detail-value">15</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Profissional:</span>
+                        <span class="detail-value">ROSANGELA MURÇA ANDRADE COSTA – CRM 6077</span>
+                    </div>
+                </div>
+            </section>
 
-    <!-- Detalhes -->
-    <div class="details-section">
-      <h2 class="section-title">Detalhes</h2>
-      <div class="details-card">
-        <div class="detail-item">
-          <span class="detail-label">Qtde. dias do atestado</span>
-          <span class="detail-value">15</span>
-        </div>
-        <div class="detail-item">
-          <span class="detail-label">Profissional</span>
-          <span class="detail-value">ROSANGELA MURÇA ANDRADE COSTA – CRM 6077</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- Botão -->
-    <div class="button-container">
-      <button class="btn-back"
-        onclick="window.location.href='https://saude.salvador.ba.gov.br/'">
+            <!-- Back Button -->
+            <div class="button-container">
+                <button class="btn-back" onclick="window.location.href='https://saude.salvador.ba.gov.br/'">
         Voltar
       </button>
-    </div>
+            </div>
+        </div>
+    </main>
 
-  </div>
-</main>
-
-<footer class="footer">
-  <div class="container footer-content">
-
-    <div>
-      <h3 class="footer-title">Acesso rápido</h3>
-      <ul class="links-list">
-        <li><a href="https://www.cremeb.org.br/" target="_blank">cremeb.org.br</a></li>
-        <li><a href="https://www.saude.ba.gov.br/" target="_blank">saude.ba.gov.br</a></li>
-        <li><a href="https://coronavirus.pr.gov.br/" target="_blank">coronavirus.pr.gov.br</a></li>
-      </ul>
-    </div>
-
-    <div class="footer-logo">
-      <img src="assets/img/logo.png" class="logo-img" alt="Logo">
-      <span class="logo-text">SALVADOR</span>
-    </div>
-
-  </div>
-
-  <div class="footer-bottom">
-    <p class="developer-info">
-      Desenvolvido por ICI – Instituto das Cidades Inteligentes
-    </p>
-  </div>
-</footer>
-
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <h3 class="footer-title">Acesso rápido</h3>
+                    <ul class="links-list">
+                        <li><a href="https://curitiba.pr.gov.br" target="_blank" rel="noopener noreferrer">curitiba.pr.gov.br</a></li>
+                        <li><a href="https://imunizaja.curitiba.pr.gov.br" target="_blank" rel="noopener noreferrer">imunizaja.curitiba.pr.gov.br</a></li>
+                        <li><a href="https://coronavirus.curitiba.pr.gov.br" target="_blank" rel="noopener noreferrer">coronavirus.curitiba.pr.gov.br</a></li>
+                    </ul>
+                </div>
+                <div class="footer-logo">
+                    <img src="pmc-logo.svg" alt="Prefeitura Municipal de Curitiba" class="logo-img">
+                    <span class="logo-text">CURITIBA</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="developer-info">Desenvolvido por ICI - Instituto das Cidades Inteligentes</p>
+        </div>
+    </footer>
 </body>
+</html>
